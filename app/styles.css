@@ -1,0 +1,127 @@
+header,
+ nav,
+ section,
+ footer {
+
+ border-radius: 5px;
+ font-family: arial, san-serif;
+ font-size: 30px;
+ text-align: center;
+ padding: 30px;
+ margin-bottom: 20px;
+ }
+
+
+ header{
+  background-image: url("assets/images/christmasHeader1.jpeg");
+  height: 10%;
+  opacity: 0.8;
+  border-top: solid;
+  border-width: 30px;
+  border-color: #103f22;
+
+}
+header div h1, header div h2{
+  text-align: center;
+  color: rgb(184, 42, 42);
+  text-shadow: 2px 4px #252525;
+  font-family: Verdana;
+}
+
+
+
+header div h2{
+  color: aliceblue;
+  font-style: italic;
+
+}
+body{
+background-color: snow;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+
+.list ul{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* border-top: solid;
+  border-width:thin medium thick 10px; */
+}
+
+.list-li{
+  list-style: none;
+  width:200px;
+  box-shadow: 8px 10px #c9c8c8;
+  padding: 5px;
+  margin:10px;
+
+}
+.list-li img{
+  width:190px;
+}
+.list-li button{
+  width:190px;
+  margin: 15px 5px 15px 5px;
+  border: none;
+  background-color: #fce043;
+  color: rgb(255, 255, 255);
+  padding:3px;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Add form */
+.food-form {
+  margin: 1rem 0;
+  width: 100%px;
+  margin: 1rem;
+  background: #f5ffff;
+ border: 20px solid #103f22;
+  }
+  .addFood-button {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: .5rem 1rem;
+  background:rgb(124, 168, 58);
+  color: whitesmoke;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin: 1rem 0;
+  outline: none;
+                 float: right;
+  cursor: pointer;
+  
+  }
+  .addFood-button:hover,
+  .addFood-button:focus {
+  background: green;
+  }
+  .food-form label {
+  display: inline-block;
+  width: 150px;
+  }
+  .food-form input {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+  }
+input,
+textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  width: 100%;
+}
