@@ -53,7 +53,8 @@ background-size: 100%;
 .list ul{
   margin: 10px;
   padding: 10px;
-  display: flex;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -79,8 +80,8 @@ background-size: 100%;
   background-color: #fce043;
   color: rgb(255, 255, 255);
   padding:3px;
-  font-size: large;
-  font-weight: bold;
+  font-size: small;
+  font-weight:normal;
 }
 
 /* Add form */
